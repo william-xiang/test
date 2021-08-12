@@ -13,9 +13,6 @@ spec:
   containers:
     - image: quay.io/eclipse/che-plugin-sidecar@sha256:70836fd2fc01198c1a31f44d0af9cdf2d7445035be54f0bc7ae2cbfe262e0231
       name: vscode-java
-      volumes:
-        - name: m2
-          mountPath: /home/theia/.m2
       memoryLimit: 1500Mi
   extensions:
           - https://github.com/william-xiang/vs-extension/raw/main/helloFalks.vsix
