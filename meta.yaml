@@ -15,4 +15,4 @@ spec:
       name: vscode-java
       memoryLimit: 1500Mi
   extensions:
-          - https://github.com/william-xiang/vs-extension/raw/main/helloFalks.vsix
+          - https://github.com/william-xiang/test/raw/main/helloFalks.vsix
